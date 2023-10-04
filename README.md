@@ -6,7 +6,9 @@ Table of Contents
 3. Wireframes
 
 Overview
+
 Description 
+
 Displays hairstylists, barbers and locticians in nearby areas. It also displays their Instagram and Facebook business page so that the business can then be thoroughly inspected by the user before deciding to visit. The application also shows reviews and ratings left by previous users, payments can be made through the app as well. 
 
 App Evaluation
