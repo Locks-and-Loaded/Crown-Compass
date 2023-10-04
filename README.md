@@ -49,5 +49,10 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 
   ### 3. Navigation
 
+## Wireframes
+
+### Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
   
 
