@@ -20,7 +20,7 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 * **Scope:** Initially the app would be within the United States, however we are hoping that it can evolve into a worldwide application that can be used when an individual travels to a country for the first time. This would pair well with Google Travel. 
 
 
-## Product Specs
+## Product Spec
 ### 1. User Stories
 **Required Must-have Stories**
 
