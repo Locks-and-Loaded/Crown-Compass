@@ -1,9 +1,9 @@
 # Crown Compass
 
 ## Table of Contents
-1. Overview
-2. Product Spec
-3. Wireframes
+1. [Overview](#Overview) 
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
 
 ## Overview
 
