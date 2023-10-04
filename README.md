@@ -13,11 +13,11 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 
 App Evaluation
 
-*•	Category: Marketing/ Services
-*•	Story: Inputs users’ locations and specific need between hairstylist, barber or loctician. The user then is presented with options for their choice that’s within the vicinity. Then the user can choose an option, set their appointment and pay for it through the app. 
-*•	Market: Anyone with a head of hair or facial hair can use this app in order to find their choice of stylist. In order to make users less anxious and more trusting in their new stylist images of before and after pictures will be available for each stylist as well as ratings and reviews. 
-*•	Habit: This app can be used as often as someone goes to the barber or gets their hair done, whether it may be weekly, bi-weekly, monthly or less often. 
-*•	Scope: Initially the app would be within the United States, however we are hoping that it can evolve into a worldwide application that can be used when an individual travels to a country for the first time. This would pair well with Google Travel. 
+•	Category: Marketing/ Services
+•	Story: Inputs users’ locations and specific need between hairstylist, barber or loctician. The user then is presented with options for their choice that’s within the vicinity. Then the user can choose an option, set their appointment and pay for it through the app. 
+•	Market: Anyone with a head of hair or facial hair can use this app in order to find their choice of stylist. In order to make users less anxious and more trusting in their new stylist images of before and after pictures will be available for each stylist as well as ratings and reviews. 
+•	Habit: This app can be used as often as someone goes to the barber or gets their hair done, whether it may be weekly, bi-weekly, monthly or less often. 
+•	Scope: Initially the app would be within the United States, however we are hoping that it can evolve into a worldwide application that can be used when an individual travels to a country for the first time. This would pair well with Google Travel. 
 
 
 # Product Specs
