@@ -20,8 +20,8 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 * Scope: Initially the app would be within the United States, however we are hoping that it can evolve into a worldwide application that can be used when an individual travels to a country for the first time. This would pair well with Google Travel. 
 
 
-# Product Specs
-## 1. User Stories
+## Product Specs
+### 1. User Stories
 Required Must-have Stories
 
 * User puts location into profile settings.
@@ -35,7 +35,7 @@ Required Must-have Stories
 * User can leave review and ratings.
 * User can upload pre and post hairstyle to help future users.
 
-## 2. Screens
+### 2. Screens
 * Login
 * Register- User signs up or logs in to their account
   *
@@ -47,7 +47,7 @@ Required Must-have Stories
 * Settings Screen
   * User can change location, language settings, and notification settings
 
-  ## 3. Navigation
+  ### 3. Navigation
 
   
 
