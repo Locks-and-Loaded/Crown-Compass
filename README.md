@@ -108,8 +108,10 @@ Profile
 
 ## Wireframes
 
+
 ### Digital Wireframes & Mockups
+  [Visily-Export_04-10-2023_09-55.pdf](https://github.com/Locks-and-Loaded/Crown-Compass/files/12811493/Visily-Export_04-10-2023_09-55.pdf)
 
 ### [BONUS] Interactive Prototype
-  
+
 
