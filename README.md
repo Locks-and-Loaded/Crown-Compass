@@ -1,5 +1,5 @@
 
-https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/91d25a7f-7736-45fc-97f6-eb719c4e9437
+
 # Crown Compass
 
 ## Table of Contents
