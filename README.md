@@ -63,12 +63,17 @@ o	User can filter hair service based on preference such as style
   ### 3. Navigation
 **Tab Navigation (Tab to Screen):
 
-Home Feed
-Nav Map Location Services
-Search/Filter
-Likes
-Profile
-Back button
+*Home Feed
+
+*Nav Map Location Services
+
+*Search/Filter
+
+*Likes
+
+*Profile
+
+*Back button
 
 **Flow Navigation (Screen to Screen):
 ##
