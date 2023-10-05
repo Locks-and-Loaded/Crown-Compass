@@ -1,3 +1,5 @@
+
+https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/91d25a7f-7736-45fc-97f6-eb719c4e9437
 # Crown Compass
 
 ## Table of Contents
@@ -122,7 +124,9 @@ Profile
 ### [BONUS] Interactive Prototype
 
 
-https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/6e74d41d-16a7-4df3-80d5-21e4617fa913
+https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/af8585c0-f3a1-406f-9b2b-5c611f41972c
+
+
 
 
 
