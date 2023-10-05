@@ -107,14 +107,17 @@ Profile
 => Back button
 
 ## Wireframes
-![search](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e6e5a856-e514-4dd4-a05d-5617b84e23b4)
-![profile](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e8024595-01c0-4eca-9eeb-4742d70a2f79)
-![mapscreen](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/5e76eee1-6801-4663-a4e4-039652ad1342)
-![likes](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/1a49f7f5-ec76-4470-a647-1d7fc268a7da)
-![home_feed](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/39ae44a1-ee12-4190-a60f-ce438e47648a)
+![Untitled design](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/dcc77651-0aea-4fc2-8c93-f4c89b51750d)
 
 ### Digital Wireframes & Mockups
-  [Visily-Export_04-10-2023_09-55.pdf](https://github.com/Locks-and-Loaded/Crown-Compass/files/12811493/Visily-Export_04-10-2023_09-55.pdf)
+ ![Visily-Export_04-10-2023_09-55 (1)_Page_5_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/c82ee4ff-05e0-4614-9322-d169b6a04a95)
+![Visily-Export_04-10-2023_09-55 (1)_Page_4_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/554287db-5803-4e5d-9d07-d384cbdec091)
+![Visily-Export_04-10-2023_09-55 (1)_Page_3_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/06dc9b9c-9d63-4b25-b6dc-e54719c7abdd)
+![Visily-Export_04-10-2023_09-55 (1)_Page_2_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/92669e37-3dfd-4a7e-900a-abe3dcf0bdc1)
+![Visily-Export_04-10-2023_09-55 (1)_Page_1_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/073f754b-1088-4ca5-b6ba-8c3c8dc10629)
+![Visily-Export_04-10-2023_09-55 (1)_Page_7_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e27648a0-71f3-4e6c-812d-ddf6ab6a42a8)
+![Visily-Export_04-10-2023_09-55 (1)_Page_6_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/372249e7-0a01-4a25-a049-d76e4fe6f90d)
+
 
 ### [BONUS] Interactive Prototype
 
