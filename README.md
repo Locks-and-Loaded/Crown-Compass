@@ -1,5 +1,4 @@
 
-
 # Crown Compass
 
 ## Table of Contents
