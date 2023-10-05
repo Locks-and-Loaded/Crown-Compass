@@ -107,7 +107,11 @@ Profile
 => Back button
 
 ## Wireframes
-
+![search](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e6e5a856-e514-4dd4-a05d-5617b84e23b4)
+![profile](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e8024595-01c0-4eca-9eeb-4742d70a2f79)
+![mapscreen](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/5e76eee1-6801-4663-a4e4-039652ad1342)
+![likes](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/1a49f7f5-ec76-4470-a647-1d7fc268a7da)
+![home_feed](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/39ae44a1-ee12-4190-a60f-ce438e47648a)
 
 ### Digital Wireframes & Mockups
   [Visily-Export_04-10-2023_09-55.pdf](https://github.com/Locks-and-Loaded/Crown-Compass/files/12811493/Visily-Export_04-10-2023_09-55.pdf)
