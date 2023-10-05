@@ -24,30 +24,82 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 ### 1. User Stories
 **Required Must-have Stories**
 
-* User puts location into profile settings.
-* User inputs specific service needs so that the right options may be presented.
-* User pays through app when finally deciding upon an option.
+*	User can create a new account to find hair and styling services such as beards, braids, natural hair, wigs, barber
+*	User can login to use app
+*	Search hair service use preferred map app or built in map to locate hair services in selected area by typing location or using device location
+*	Follow hair service that they want to see reviews and photos from
+*	Filter by hair service type such as beards, braids, natural hair, wigs, barber
+
 
  **Optional Nice-to-have Stories**
  
-* User chooses an option and sees pre and post haircut photos to lock in decision.
-* User can go on the Instagram and Facebook pages of available options.
-* User can leave review and ratings.
-* User can upload pre and post hairstyle to help future users.
+*	User can tap a photo to view a more detailed photo screen with comments to talk about experience and share photos
+*	User can view a feed of photos and reviews of app reviews and rating
+*	User can leave a review of hair service
+
 
 ### 2. Screens
-* Login
-* Register- User signs up or logs in to their account
-  *
-  
-* Search
-  * User can search for desired services in their area
-* Profile Screen
-* Map
-* Settings Screen
-  * User can change location, language settings, and notification settings
+**Required
+2. Screen Archetypes
+Based on your required user stories, the next step is identifying your core screen archetypes, these are the different screens your app will have to have to function. For example:
+*	Login Screen
+o	User can login
+*	Registration Screen
+o	User can create a new account
+o	User can post a new photo to their feed
+*	Search
+o	User can search for other service
+o	User can follow/unfollow service
+*	Location based
+•	Follow hair service
+o	User can like service content
+o	User can follow hair service
+*	Filter Hair service 
+o	User can filter hair service based on preference such as style
+
+
+
 
   ### 3. Navigation
+*Tab Navigation (Tab to Screen):
+
+Home Feed
+Nav Map Location Services
+Search/Filter
+Likes
+Profile
+Back button
+
+Flow Navigation (Screen to Screen):
+
+Landing page=>
+Login Screen
+
+=> Home Feed
+Registration Screen
+
+=> Home Feed
+Home Feed
+
+=> Nav Map Location Services
+=> Search/Filter
+=> Likes
+=> Profile
+
+
+=> Search/Filter
+=> Likes
+=> Profile
+Search/Filter
+
+=> Likes
+=> Profile
+Likes
+
+=> Profile
+Profile
+
+=> Back button
 
 ## Wireframes
 
