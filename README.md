@@ -111,13 +111,14 @@ Profile
 ![Untitled design](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/dcc77651-0aea-4fc2-8c93-f4c89b51750d)
 
 ### Digital Wireframes & Mockups
- ![Visily-Export_04-10-2023_09-55 (1)_Page_5_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/c82ee4ff-05e0-4614-9322-d169b6a04a95)
-![Visily-Export_04-10-2023_09-55 (1)_Page_4_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/554287db-5803-4e5d-9d07-d384cbdec091)
-![Visily-Export_04-10-2023_09-55 (1)_Page_3_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/06dc9b9c-9d63-4b25-b6dc-e54719c7abdd)
-![Visily-Export_04-10-2023_09-55 (1)_Page_2_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/92669e37-3dfd-4a7e-900a-abe3dcf0bdc1)
-![Visily-Export_04-10-2023_09-55 (1)_Page_1_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/073f754b-1088-4ca5-b6ba-8c3c8dc10629)
-![Visily-Export_04-10-2023_09-55 (1)_Page_7_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/e27648a0-71f3-4e6c-812d-ddf6ab6a42a8)
-![Visily-Export_04-10-2023_09-55 (1)_Page_6_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/372249e7-0a01-4a25-a049-d76e4fe6f90d)
+![Visily-Export_04-10-2023_09-55 (1)_Page_7_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/3c0729bb-12ab-4ce8-93b8-d939fbf3d176)
+![Visily-Export_04-10-2023_09-55 (1)_Page_6_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/f3a4b0d1-cd57-4765-99c1-f4c3a6166a62)
+![Visily-Export_04-10-2023_09-55 (1)_Page_4_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/1ee4c3ef-4e76-42e3-b021-96ddecde98ee)
+![Visily-Export_04-10-2023_09-55 (1)_Page_3_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/04c4bf23-7675-452e-91f0-59b6a0782d0c)
+![Visily-Export_04-10-2023_09-55 (1)_Page_2_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/dc036e23-47f0-4cdb-a8d6-67f8ad591b64)
+![Visily-Export_04-10-2023_09-55 (1)_Page_1_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/db9f3f9c-14b8-4adc-8884-93a2651f05c6)
+![Visily-Export_04-10-2023_09-55 (1)_Page_5_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/698c1103-1f36-4e3c-af25-5643c56eb8fa)
+
 
 
 ### [BONUS] Interactive Prototype
