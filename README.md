@@ -123,7 +123,10 @@ Profile
 
 ### [BONUS] Interactive Prototype
 
-https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/af8585c0-f3a1-406f-9b2b-5c611f41972c
+
+https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d-4a09-901e-04de5f9ad21b
+
+
 
 ## Networking
 List of network requests by screen
