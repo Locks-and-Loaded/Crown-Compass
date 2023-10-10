@@ -128,11 +128,67 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 
 ## Models
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+### User
+| Property      | Type          | Description                           |
+| ------------- |:-------------:| ------------------------------------- |
+| id            | Integer (Primary Key) | Unique identifier for the user  |
+| username      | String        | User's screen name                    |
+| password      | String        | User's password (hashed and salted)  |
+| email         | String        | User's email address                  |
+| userLocation  | Geolocation   | User's current location               |
+| profileImage  | File          | User's profile picture                |
+| created_at    | DateTime      | Timestamp of when the user account was created |
+| updated_at    | DateTime      | Timestamp of when the user account was last updated |
+
+
+
+### Service
+| Property      | Type          | Description                           |
+| ------------- |:-------------:| ------------------------------------- |
+| id            | Integer (Primary Key) | Unique identifier for the service |
+| serviceName   | String        | Name of the service/business          |
+| serviceLocation | Geolocation  | Location of the service/business      |
+| description   | Text          | Description of the service/business   |
+| instagramLink | String        | Link to the service's Instagram business page |
+| facebookLink  | String        | Link to the service's Facebook business page |
+| created_at    | DateTime      | Timestamp of when the service was added |
+| updated_at    | DateTime      | Timestamp of when the service information was last updated |
+
+
+### ServiceType
+| Property      | Type          | Description                           |
+| ------------- |:-------------:| ------------------------------------- |
+| id            | Integer (Primary Key) | Unique identifier for the service type |
+| typeName      | String        | Type of service (e.g., hairstylist, barber, loctician) |
+| created_at    | DateTime      | Timestamp of when the service type was created |
+| updated_at    | DateTime      | Timestamp of when the service type information was last updated |
+
+
+### Review
+| Property      | Type          | Description                           |
+| ------------- |:-------------:| ------------------------------------- |
+| id            | Integer (Primary Key) | Unique identifier for the review |
+| service_id    | Integer (Foreign Key) | ID of the service being reviewed     |
+| user_id       | Integer (Foreign Key) | ID of the user who left the review    |
+| rating        | Integer       | Rating given by the user (e.g., 1-5 stars) |
+| comment       | Text          | User's comment or review text         |
+| created_at    | DateTime      | Timestamp of when the review was posted |
+| updated_at    | DateTime      | Timestamp of when the review information was last updated |
+
+
+### Payment
+| Property      | Type          | Description                           |
+| ------------- |:-------------:| ------------------------------------- |
+| id            | Integer (Primary Key) | Unique identifier for the payment |
+| user_id       | Integer (Foreign Key) | ID of the user making the payment    |
+| service_id    | Integer (Foreign Key) | ID of the service receiving the payment |
+| amount        | Decimal       | Amount of the payment                 |
+| paymentDate   | DateTime      | Timestamp of when the payment was made |
+| paymentStatus | String        | Payment status (e.g., "pending," "completed") |
+| created_at    | DateTime      | Timestamp of when the payment record was created |
+| updated_at    | DateTime      | Timestamp of when the payment record information was last updated |
+
+
 
 
 
