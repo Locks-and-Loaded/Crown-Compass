@@ -146,15 +146,15 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
    }
 }
 
-* (Create/POST) Create a new like on a post
-* (Delete) Delete existing like
-* (Create/POST) Create a new comment on a post
-* (Delete) Delete existing comment
+o (Create/POST) Create a new like on a post
+o (Delete) Delete existing like
+o (Create/POST) Create a new comment on a post
+o (Delete) Delete existing comment
 * Create Post Screen
-* (Create/POST) Create a new post object
+o (Create/POST) Create a new post object
 * Profile Screen
-* (Read/GET) Query logged in user object
-* (Update/PUT) Update user profile image
+o (Read/GET) Query logged in user object
+o (Update/PUT) Update user profile image
 
 
 
