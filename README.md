@@ -5,6 +5,7 @@
 1. [Overview](#Overview) 
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 
@@ -126,7 +127,9 @@ Profile
 
 https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d-4a09-901e-04de5f9ad21b
 
-## Models
+## Schema
+
+### Models
 
 ### User
 | Property      | Type          | Description                           |
