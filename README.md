@@ -130,10 +130,10 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 
 ## Networking
 ### List of network requests by screen
-*Home Feed Screen
+ Home Feed Screen
 
-(Read/GET) Query all posts where user is author
-
+o (Read/GET) Query all posts where user is author
+```
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
 query.order(byDescending: "createdAt")
@@ -145,7 +145,7 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
-
+```
 o (Create/POST) Create a new like on a post
 o (Delete) Delete existing like
 o (Create/POST) Create a new comment on a post
