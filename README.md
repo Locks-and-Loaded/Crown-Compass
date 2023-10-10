@@ -132,7 +132,7 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 ### List of network requests by screen
 o Home Feed Screen
 
-oo (Read/GET) Query all posts where user is author
+o o (Read/GET) Query all posts where user is author
 ```
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
