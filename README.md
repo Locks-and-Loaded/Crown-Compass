@@ -185,7 +185,7 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 | amount        | Floating point       | Amount of the payment                 |
 | paymentDate   | Timestamp      | Timestamp of when the payment was made |
 | paymentStatus | String        | Payment status (e.g., "pending," "completed") |
-| created_at    | TimeStamp     | Timestamp of when the payment record was created |
+| created_at    | Timestamp     | Timestamp of when the payment record was created |
 | updated_at    | Timestamp     | Timestamp of when the payment record information was last updated |
 
 
