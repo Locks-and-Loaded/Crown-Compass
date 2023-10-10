@@ -137,8 +137,8 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 | email         | String        | User's email address                  |
 | userLocation  | Geolocation   | User's current location               |
 | profileImage  | File          | User's profile picture                |
-| created_at    | DateTime      | Timestamp of when the user account was created |
-| updated_at    | DateTime      | Timestamp of when the user account was last updated |
+| created_at    | Timestamp     | Timestamp of when the user account was created |
+| updated_at    | Timestamp     | Timestamp of when the user account was last updated |
 
 
 
@@ -148,20 +148,20 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 | id            | Integer (Primary Key) | Unique identifier for the service |
 | serviceName   | String        | Name of the service/business          |
 | serviceLocation | Geolocation  | Location of the service/business      |
-| description   | Text          | Description of the service/business   |
+| description   | String          | Description of the service/business   |
 | instagramLink | String        | Link to the service's Instagram business page |
 | facebookLink  | String        | Link to the service's Facebook business page |
-| created_at    | DateTime      | Timestamp of when the service was added |
-| updated_at    | DateTime      | Timestamp of when the service information was last updated |
+| created_at    | Timestamp      | Timestamp of when the service was added |
+| updated_at    | Timestamp     | Timestamp of when the service information was last updated |
 
 
 ### ServiceType
 | Property      | Type          | Description                           |
 | ------------- |:-------------:| ------------------------------------- |
 | id            | Integer (Primary Key) | Unique identifier for the service type |
-| typeName      | String        | Type of service (e.g., hairstylist, barber, loctician) |
-| created_at    | DateTime      | Timestamp of when the service type was created |
-| updated_at    | DateTime      | Timestamp of when the service type information was last updated |
+| typeName      | Timestamp        | Type of service (e.g., hairstylist, barber, loctician) |
+| created_at    | Timestamp     | Timestamp of when the service type was created |
+| updated_at    | Timestamp     | Timestamp of when the service type information was last updated |
 
 
 ### Review
@@ -171,9 +171,9 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 | service_id    | Integer (Foreign Key) | ID of the service being reviewed     |
 | user_id       | Integer (Foreign Key) | ID of the user who left the review    |
 | rating        | Integer       | Rating given by the user (e.g., 1-5 stars) |
-| comment       | Text          | User's comment or review text         |
-| created_at    | DateTime      | Timestamp of when the review was posted |
-| updated_at    | DateTime      | Timestamp of when the review information was last updated |
+| comment       | String         | User's comment or review text         |
+| created_at    | Timestamp      | Timestamp of when the review was posted |
+| updated_at    | Timestamp     | Timestamp of when the review information was last updated |
 
 
 ### Payment
@@ -182,11 +182,11 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 | id            | Integer (Primary Key) | Unique identifier for the payment |
 | user_id       | Integer (Foreign Key) | ID of the user making the payment    |
 | service_id    | Integer (Foreign Key) | ID of the service receiving the payment |
-| amount        | Decimal       | Amount of the payment                 |
-| paymentDate   | DateTime      | Timestamp of when the payment was made |
+| amount        | Floating point       | Amount of the payment                 |
+| paymentDate   | Timestamp      | Timestamp of when the payment was made |
 | paymentStatus | String        | Payment status (e.g., "pending," "completed") |
-| created_at    | DateTime      | Timestamp of when the payment record was created |
-| updated_at    | DateTime      | Timestamp of when the payment record information was last updated |
+| created_at    | TimeStamp     | Timestamp of when the payment record was created |
+| updated_at    | Timestamp     | Timestamp of when the payment record information was last updated |
 
 
 
