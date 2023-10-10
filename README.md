@@ -131,6 +131,22 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 
 ### Models
 
+
+### Login
+Property | Type | Description
+-- | -- | --
+UserID | Integer | A unique identifier for each user
+Username | String | The username chosen by the user
+PasswordHash | String | The hashed version of the user's password
+PasswordSalt | String | A unique value used to hash the password
+Email | String | The user's email address
+PhoneNumber | String | The user's phone number (optional)
+LastLoginTimestamp | DateTime | The timestamp of the user's last login
+FailedLoginCount | Integer | The number of consecutive failed login attempts
+AccountLocked | Boolean | Indicates whether the user account is locked or not
+AccountVerified | Boolean | Indicates whether the user has verified their account
+
+
 ### User
 | Property      | Type          | Description                           |
 | ------------- |:-------------:| ------------------------------------- |
@@ -197,6 +213,43 @@ https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d
 
 ## Networking
 ### List of network requests by screen
+
+**Login Screen**
+
+POST /login
+
+Sends the user's credentials to the server for authentication.
+Request Body: Contains the username and password.
+Response: May contain a token for session management, and user information if the login is successful, or error information if it's not.
+POST /register
+
+Sends new user account data to the server to create a new account.
+Request Body: Contains the username, password, email, and any other required information.
+Response: May contain a success message or error information.
+GET /account-verification/{verification_code}
+
+Requests the server to verify the user's email address using a verification code.
+Path Parameter: Verification code sent to the user's email.
+Response: May contain a success message or error information.
+POST /forgot-password
+
+Requests the server to initiate the password reset process.
+Request Body: Contains the email address of the account.
+Response: May contain a success message or error information.
+PUT /reset-password
+
+Sends the new password information to the server to update the user's password.
+Request Body: Contains the new password, and possibly a reset token.
+Response: May contain a success message or error information.
+GET /logout
+
+Requests the server to end the user's session.
+Response: May contain a success message or error information.
+GET /profile
+
+Retrieves the user's profile information after login.
+Response: Contains user profile information.
+
 **Home Feed Screen**
 
  o (Read/GET) Query all posts where user is author
