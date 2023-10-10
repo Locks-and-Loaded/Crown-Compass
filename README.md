@@ -252,37 +252,59 @@ Response: Contains user profile information.
 
 **Home Feed Screen**
 
- o (Read/GET) Query all posts where user is author
- 
-```
-let query = PFQuery(className:"Post")
-query.whereKey("author", equalTo: currentUser)
-query.order(byDescending: "createdAt")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error { 
-      print(error.localizedDescription)
-   } else if let posts = posts {
-      print("Successfully retrieved \(posts.count) posts.")
-  // TODO: Do something with posts...
+
+
+## Networking
+### List of network requests by screen
+
+**Home Feed Screen**
+
+    o (Read/GET) Query all posts where seletedUser is author
+   
+  ```
+   let query = PFQuery(className:"Post")
+   query.whereKey("author", equalTo: seletedUser)
+   query.order(byDescending: "createdAt")
+   query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+      if let error = error { 
+         print(error.localizedDescription)
+      } else if let posts = posts {
+        print("Successfully retrieved \(posts.count) posts.")
+     // TODO: Do something with posts...
+      }
    }
-}
-```
- o (Create/POST) Create a new like on a post
+  ```
+    o (Create/POST) Create a new like on a post
  
- o (Delete) Delete existing like
- 
- o (Create/POST) Create a new comment on a post
- 
- o (Delete) Delete existing comment
- 
-**Create Post Screen**
-  o (Create/POST) Create a new post object
+    o (Delete) Delete existing like
   
-  o Profile Screen
+ 
+**Create Post Screen for Vendors**
+
+    o (Create/POST) Create a new post object
+
+    o (Delete) Delete existing post
   
-  o (Read/GET) Query logged in user object
-  
-  o (Update/PUT) Update user profile image
+  **Profile Screen**
+    
+    o (Update/PUT) Update user profile image
+
+    o (Update/PUT) Update user profile info
+
+    o (Update/PUT) Update user to vendor or customer
+    
+  **Search Screen**
+
+    o (Read/GET) Query logged in user object
+
+    o (Read/GET) Filter Query by category
+
+ **Navigation Screen**
+
+    o (Update/PUT) Update user objects in proximity to currentUser
+
+
+
 
 
 
