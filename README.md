@@ -303,7 +303,7 @@ Response: Contains user profile information.
 
     o (Update/PUT) Update user objects in proximity to currentUser
 
-**[IF EXISTS:] Existing API Endpoints**
+**###[IF EXISTS:] Existing API Endpoints**
  ## Stripe API Endpoints
 
 * Base URL -
