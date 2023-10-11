@@ -304,13 +304,15 @@ Response: Contains user profile information.
     o (Update/PUT) Update user objects in proximity to currentUser
 
 **[IF EXISTS:] Existing API Endpoints**
-* ## Stripe API Endpoints
+ ## Stripe API Endpoints
+
+* Base URL -
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
-| POST      | /v1/payment_intents                    | Handle the payment process.    |
+| POST      | /v1/payment_intents                    | Handle the payment process.                                   |
 | POST      | /v1/customers                          | Create a new customer.                                        |
-| GET       | /v1/customers/{customer}               | Retrieves details of a specific customer.                      |
+| GET       | /v1/customers/{customer}               | Retrieves details of a specific customer.                     |
 | POST      | /v1/customers/{customer}               | Update a specific customer's details.                         |
 | DELETE    | /v1/customers/{customer}               | Delete a specific customer.                                   |
 | POST      | /v1/payment_methods                    | Create a new payment method for a customer.                   |
@@ -319,13 +321,15 @@ Response: Contains user profile information.
 
 ## Google Maps API Endpoints
 
-| HTTP Verb | Endpoint                                | Description                                                   |
-|-----------|-----------------------------------------|---------------------------------------------------------------|
-| GET       | `/maps/api/place/nearbysearch/json`     | Search for places in a specified area.        |
-| GET       | `/maps/api/place/details/json`          | Retrieve details of a specific place.                         |
-| GET       | `/maps/api/geocode/json`                | Convert addresses into lat-long coordinates.                  |
-| GET       | `/maps/api/directions/json`             | Get directions from one location to another.       |
-| POST      | `/maps/geolocation/v1/geolocate`        | Determine the user's current location.                        |
+* Base URL -
+
+| HTTP Verb | Endpoint                               | Description                                                   |
+|-----------|----------------------------------------|---------------------------------------------------------------|
+| GET       | /maps/api/place/nearbysearch/json`     | Search for places in a specified area.                        |
+| GET       | /maps/api/place/details/json`          | Retrieve details of a specific place.                         |
+| GET       | /maps/api/geocode/json`                | Convert addresses into lat-long coordinates.                  |
+| GET       | /maps/api/directions/json`             | Get directions from one location to another.                  |
+| POST      | /maps/geolocation/v1/geolocate`        | Determine the user's current location.                        |
 
 
 
