@@ -80,33 +80,33 @@ o	User can filter hair service based on preference such as style
 **Flow Navigation (Screen to Screen):**
 
 * Landing page=>
-Login Screen
+* Login Screen
 
-=> Home Feed
-Registration Screen
+* => Home Feed
+* Registration Screen
 
-=> Home Feed
-Home Feed
+* => Home Feed
+* Home Feed
 
-=> Nav Map Location Services
-=> Search/Filter
-=> Likes
-=> Profile
+* => Nav Map Location Services
+* => Search/Filter
+* => Likes
+* => Profile
 
 
-=> Search/Filter
-=> Likes
-=> Profile
-Search/Filter
+* => Search/Filter
+* => Likes
+* => Profile
+* Search/Filter
 
-=> Likes
-=> Profile
-Likes
+* => Likes
+* => Profile
+* Likes
 
-=> Profile
-Profile
+* => Profile
+* Profile
 
-=> Back button
+* => Back button
 
 ## Wireframes
 ![Untitled design](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/dcc77651-0aea-4fc2-8c93-f4c89b51750d)
