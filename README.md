@@ -304,7 +304,7 @@ Response: Contains user profile information.
     o (Update/PUT) Update user objects in proximity to currentUser
 
 ### [IF EXISTS:] Existing API Endpoints
- ## Stripe API Endpoints
+ #### Stripe API Endpoints
 
 * Base URL -
 
@@ -319,7 +319,7 @@ Response: Contains user profile information.
 | GET       | /v1/payment_methods                    | List payment methods for a customer.                          |
 | POST      | /v1/checkout/sessions                  | Create a session for Stripe Checkout (optional).              |
 
-## Google Maps API Endpoints
+#### Google Maps API Endpoints
 
 * Base URL -
 
