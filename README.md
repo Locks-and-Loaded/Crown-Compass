@@ -308,14 +308,14 @@ Response: Contains user profile information.
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
-| POST      | `/v1/payment_intents`                  | Handle the payment process.    |
-| POST      | `/v1/customers`                        | Create a new customer.                                        |
-| GET       | `/v1/customers/{customer}`             | Retrieves details of a specific customer.                      |
-| POST      | `/v1/customers/{customer}`             | Update a specific customer's details.                         |
-| DELETE    | `/v1/customers/{customer}`             | Delete a specific customer.                                   |
-| POST      | `/v1/payment_methods`                  | Create a new payment method for a customer.                   |
-| GET       | `/v1/payment_methods`                  | List payment methods for a customer.                          |
-| POST      | `/v1/checkout/sessions`                | Create a session for Stripe Checkout (optional).              |
+| POST      | /v1/payment_intents                    | Handle the payment process.    |
+| POST      | /v1/customers                          | Create a new customer.                                        |
+| GET       | /v1/customers/{customer}               | Retrieves details of a specific customer.                      |
+| POST      | /v1/customers/{customer}               | Update a specific customer's details.                         |
+| DELETE    | /v1/customers/{customer}               | Delete a specific customer.                                   |
+| POST      | /v1/payment_methods                    | Create a new payment method for a customer.                   |
+| GET       | /v1/payment_methods                    | List payment methods for a customer.                          |
+| POST      | /v1/checkout/sessions                  | Create a session for Stripe Checkout (optional).              |
 
 ## Google Maps API Endpoints
 
