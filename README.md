@@ -306,7 +306,7 @@ Response: Contains user profile information.
 ### [IF EXISTS:] Existing API Endpoints
  #### Stripe API Endpoints
 
-* Base URL -
+* Base URL - https://stripe.com/docs/api/payment_intents
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
@@ -321,7 +321,7 @@ Response: Contains user profile information.
 
 #### Google Maps API Endpoints
 
-* Base URL -
+* Base URL - https://developers.google.com/maps/documentation/places/web-service/search-nearby
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
