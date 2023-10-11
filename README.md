@@ -304,7 +304,7 @@ Response: Contains user profile information.
     o (Update/PUT) Update user objects in proximity to currentUser
 
 
-    ## Stripe API Endpoints
+    **## Stripe API Endpoints**
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
