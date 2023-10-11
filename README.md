@@ -325,11 +325,11 @@ Response: Contains user profile information.
 
 | HTTP Verb | Endpoint                               | Description                                                   |
 |-----------|----------------------------------------|---------------------------------------------------------------|
-| GET       | /maps/api/place/nearbysearch/json`     | Search for places in a specified area.                        |
-| GET       | /maps/api/place/details/json`          | Retrieve details of a specific place.                         |
-| GET       | /maps/api/geocode/json`                | Convert addresses into lat-long coordinates.                  |
-| GET       | /maps/api/directions/json`             | Get directions from one location to another.                  |
-| POST      | /maps/geolocation/v1/geolocate`        | Determine the user's current location.                        |
+| GET       | /maps/api/place/nearbysearch/json      | Search for places in a specified area.                        |
+| GET       | /maps/api/place/details/json           | Retrieve details of a specific place.                         |
+| GET       | /maps/api/geocode/json                 | Convert addresses into lat-long coordinates.                  |
+| GET       | /maps/api/directions/json              | Get directions from one location to another.                  |
+| POST      | /maps/geolocation/v1/geolocate         | Determine the user's current location.                        |
 
 
 
