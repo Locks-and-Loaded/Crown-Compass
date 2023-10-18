@@ -41,6 +41,15 @@ Displays hairstylists, barbers and locticians in nearby areas. It also displays 
 
 
 ### 2. Screens
+Backed Done Login
+  Input Fields:
+- [x] - Username: A field where users can choose a unique name or email address
+- [x] - Password: A field to enter a secure password.
+
+Links:
+- [x] - Signup/create account: A link for users who need an account
+- [x] - Forgot Password: In case users need to recover their password.
+
 **Required
 2. Screen Archetypes
 Based on your required user stories, the next step is identifying your core screen archetypes, these are the different screens your app will have to have to function. For example:
@@ -128,8 +137,14 @@ o	User can filter hair service based on preference such as style
 https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d-4a09-901e-04de5f9ad21b
 
 ## Schema
+## Progress Login
+
 
 ### Models
+
+
+https://github.com/Locks-and-Loaded/Crown-Compass/assets/61094036/732bf72d-c63d-4e2b-8111-80a5f4ca848b
+
 
 
 ### Login
