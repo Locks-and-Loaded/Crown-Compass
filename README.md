@@ -137,7 +137,7 @@ o	User can filter hair service based on preference such as style
 https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/2c0ffbf7-af9d-4a09-901e-04de5f9ad21b
 
 ## Schema
-## Progress Login
+## Progress SignUp
 
 
 ### Models
