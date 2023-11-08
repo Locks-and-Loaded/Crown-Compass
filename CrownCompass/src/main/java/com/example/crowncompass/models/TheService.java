@@ -1,7 +1,7 @@
 package com.example.crowncompass.models;
 
 
-import com.google.protobuf.Timestamp;
+import com.google.cloud.Timestamp;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 
-public class Service {
+public class TheService {
     private Timestamp createdAt;
     private String description;
     private String facebookLink;

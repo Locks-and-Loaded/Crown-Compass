@@ -1,8 +1,9 @@
 package com.example.crowncompass.models;
 
+import com.google.cloud.Timestamp;
 import com.google.cloud.firestore.annotation.DocumentId;
 import com.google.firebase.database.annotations.Nullable;
-import com.google.protobuf.Timestamp;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
