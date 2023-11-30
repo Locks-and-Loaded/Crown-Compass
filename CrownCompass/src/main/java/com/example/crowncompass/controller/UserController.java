@@ -11,10 +11,12 @@ import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("/User")
-public class UserController {
+
+public class UserController{
+    @Autowired
 
     private UserService userService;
-    @Autowired
+
     public UserController(UserService userService){
         this.userService = userService;
     }
@@ -29,9 +31,9 @@ public class UserController {
         }
     }
     @GetMapping("/{id}")
-    public ResponseEntity<ApiResponse> getUserbyId(@PathVariable String userId){
+    public ResponseEntity<ApiResponse> getUserById(@PathVariable String id){
         try{
-            return ResponseEntity.ok(new ApiResponse(true, "Success", userService.getUserById(userId), null));
+            return ResponseEntity.ok(new ApiResponse(true, "Success", userService.getUserById(id), null));
         }
         catch(Exception e){
             return ResponseEntity.status(500).body(new ApiResponse(false,"An error occurred.", null, e.getMessage()));
@@ -57,10 +59,10 @@ public class UserController {
             return ResponseEntity.status(500).body(new ApiResponse(false, "An error occurred", null, e.getMessage()));
         }
     }
-    @DeleteMapping("/{roomID}")
-    public ResponseEntity<ApiResponse> deleteHotel(@PathVariable String roomID){
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse> deleteUser(@PathVariable String id){
         try{
-            userService.deleteHotel(roomID);
+            userService.deleteHotel(id);
             return ResponseEntity.ok(new ApiResponse(true,"Update Success",null,null));
         } catch (Exception e){
             return ResponseEntity.status(500).body(new ApiResponse(false, "An error occurred", null, e.getMessage()));

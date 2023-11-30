@@ -16,7 +16,6 @@ public class CrownCompassApplication {
 
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(CrownCompassApplication.class, args);
         //This line may be different based on what your project is named. Use the appropriate class name appears above
         ClassLoader loader = CrownCompassApplication.class.getClassLoader();
 
@@ -31,6 +30,9 @@ public class CrownCompassApplication {
                 .build();
         if(FirebaseApp.getApps().isEmpty())
             FirebaseApp.initializeApp(options);
+        SpringApplication.run(CrownCompassApplication.class, args);
+
     }
+
 
 }
