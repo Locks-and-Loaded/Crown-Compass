@@ -2,11 +2,16 @@ package com.example.crowncompass.service;
 import com.example.crowncompass.models.User;
 import com.example.crowncompass.util.ApiResponse;
 import com.google.api.core.ApiFuture;
+import com.google.cloud.Timestamp;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
+import com.google.protobuf.util.Timestamps;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.text.ParseException;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 @Service
@@ -57,19 +62,39 @@ public class UserService{
             return userId;
 
         }
-        public void updateUser (String id, Map < String, String > updatedValues){String[] allowed = {"username", "email", "password, userLocation"};
+        public void updateUser (String id, Map < String, Object > updatedValues) throws ParseException {
+        String[] allowed = {"updatedAt", "userLocation", "createdAt", "username"};
             List<String> list = Arrays.asList(allowed);
             Map<String, Object> formattedValues = new HashMap<>();
+            Log logger = LogFactory.getLog(this.getClass());
 
-            for (Map.Entry<String, String> entry : updatedValues.entrySet()) {
+            for (Map.Entry<String, Object> entry : updatedValues.entrySet()) {
                 String key = entry.getKey();
+
                 if (list.contains(key)) {
-                    formattedValues.put(key, entry.getValue());
+                    switch(key) {
+                        case "createdAt":
+                        case "updatedAt":
+                            formattedValues.put(key, Timestamp.fromProto(Timestamps.parse((String) entry.getValue())));
+                            break;
+
+                        case "userLocation":
+                            double latitude, longitude;
+                            HashMap<String,Double> latlon = (HashMap<String,Double>) entry.getValue();
+                            latitude = latlon.get("latitude");
+                            longitude = latlon.get("longitude");
+                            GeoPoint geoPoint = new GeoPoint(latitude,longitude);
+                            formattedValues.put(key,geoPoint);
+                            break;
+                        default:
+                            formattedValues.put(key, (String) entry.getValue());
+                            break;
+                    }
                 }
             }
 
             DocumentReference userDoc = firestore.collection("User").document(id);
-
+            logger.info(formattedValues);
             if (userDoc != null) {
                 try {
                     userDoc.update(formattedValues);
@@ -82,13 +107,11 @@ public class UserService{
             }
 
         }
-        public void deleteHotel (String roomID) throws ExecutionException, InterruptedException {
-            CollectionReference userCollection = firestore.collection("Users");
-            ApiFuture<DocumentSnapshot> future = userCollection.document(roomID).get();
-            DocumentSnapshot document = future.get();
-            if (document.getId().equals(roomID)) {
-                userCollection.document(roomID).delete();
-            }
+        public void deleteUsers (String userID) throws ExecutionException, InterruptedException {
+            CollectionReference userCollection = firestore.collection("User");
+            DocumentReference future = userCollection.document(userID);
+            future.delete();
+
 
         }
 

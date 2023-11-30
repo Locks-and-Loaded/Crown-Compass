@@ -51,7 +51,7 @@ public class UserController{
         }
     }
     @PutMapping("/{user}")
-    public ResponseEntity<ApiResponse> updateUser(@PathVariable String user,@RequestBody Map<String, String> j ){
+    public ResponseEntity<ApiResponse> updateUser(@PathVariable String user,@RequestBody Map<String, Object> j ){
         try{
             userService.updateUser(user,j);
             return ResponseEntity.ok(new ApiResponse(true,"Update Success",null,null));
@@ -62,7 +62,7 @@ public class UserController{
     @DeleteMapping("/{id}")
     public ResponseEntity<ApiResponse> deleteUser(@PathVariable String id){
         try{
-            userService.deleteHotel(id);
+            userService.deleteUsers(id);
             return ResponseEntity.ok(new ApiResponse(true,"Update Success",null,null));
         } catch (Exception e){
             return ResponseEntity.status(500).body(new ApiResponse(false, "An error occurred", null, e.getMessage()));
