@@ -50,7 +50,7 @@ public class UserController{
             return ResponseEntity.status(500).body(new ApiResponse(false,"An error occurred", null, e.getMessage()));
         }
     }
-    @PutMapping
+    @PutMapping("/{user}")
     public ResponseEntity<ApiResponse> updateUser(@PathVariable String user,@RequestBody Map<String, String> j ){
         try{
             userService.updateUser(user,j);
