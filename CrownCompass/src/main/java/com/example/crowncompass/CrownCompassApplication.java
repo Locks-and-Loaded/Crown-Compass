@@ -5,24 +5,22 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 
 @SpringBootApplication
 public class CrownCompassApplication {
 
-    public CrownCompassApplication(){
 
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(CrownCompassApplication.class, args);
+    public static void main(String[] args) throws IOException {
         //This line may be different based on what your project is named. Use the appropriate class name appears above
         ClassLoader loader = CrownCompassApplication.class.getClassLoader();
 
 //opens the file stored in resources
-        File file = new File(loader.getResource("serviceAccountKey.json").getFile());
+        File file = new File(loader.getResource("key.json").getFile());
 //reads the data from the file
         FileInputStream serviceAccount = new FileInputStream(file.getAbsolutePath());
 
@@ -32,6 +30,9 @@ public class CrownCompassApplication {
                 .build();
         if(FirebaseApp.getApps().isEmpty())
             FirebaseApp.initializeApp(options);
+        SpringApplication.run(CrownCompassApplication.class, args);
+
     }
+
 
 }

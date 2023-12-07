@@ -122,11 +122,17 @@ o	User can filter hair service based on preference such as style
 
 ### Digital Wireframes & Mockups
 ![Visily-Export_04-10-2023_09-55 (1)_Page_7_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/3c0729bb-12ab-4ce8-93b8-d939fbf3d176)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_6_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/f3a4b0d1-cd57-4765-99c1-f4c3a6166a62)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_4_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/1ee4c3ef-4e76-42e3-b021-96ddecde98ee)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_3_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/04c4bf23-7675-452e-91f0-59b6a0782d0c)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_2_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/dc036e23-47f0-4cdb-a8d6-67f8ad591b64)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_1_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/db9f3f9c-14b8-4adc-8884-93a2651f05c6)
+
 ![Visily-Export_04-10-2023_09-55 (1)_Page_5_Image_0001](https://github.com/Locks-and-Loaded/Crown-Compass/assets/111886958/698c1103-1f36-4e3c-af25-5643c56eb8fa)
 
 

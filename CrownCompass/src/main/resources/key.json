@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "crown-compass",
+  "private_key_id": "33a282a1542b805c60eeba05d760a73784cd6b03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfQDbX6eqlTwhd\njS5IkCoWNtsS3R6R0l6gfC9e5n83tSh90lli1BFHZbI7c1L/LV1zjVY3/NpTDeXl\n/69Em6yLI+ZJaCIb8/fzMxt0ypbb3HuJFjylFp2x8MsV9+FDZ2p4xmh4TA9IKu/Y\nk0qb+JxD6u1ZtXRj3oA5M4LSQPO27w1GU6QhnLT7jCwqUnTny18ZyMUIJ/XVeTJ8\nxV3Ofik0/d/0Lg8I/2YU7xagmnOMFIx0GkjclyszdzjSbz21ngIiWvzHcKD64siV\nXaRfRggqzOlO+niCH6ujmHfU05aC2YW4vtT0DIJaSORgf+00mAOcuEadbz3nMTGC\n6tGOrQOJAgMBAAECggEAD0LUfO4AnExKxhpgj5VLSzl0wFVdQZqf3Vif5FzdVXGM\n0w0ODzNv+vF4vZeklM0FFmETA8DFK+hHTvGriYUaxmgt1dbIfiCvUnCr78/pgB4S\nU8yxWJezL/bF6zqGq5TmMltdyNtqMAS/YI6xCvhztjDZCMjeq/UJzt82kijegCK2\nlSOEoo4brQz6p/fhLS4llp0cYtOUkIJnzOeRdCmB/SsXNWcZ7Q0Y0Z/jVyjrUPFo\nBD5QpHdb8PaZbixdtc8ozPu0dEYDDrMa5Wc2SGmQF7m5GZyN8ZfGan2+VdM3rNo9\nGzRDD2r7U/IM3YOvEfH+xgDqW6dXrRQ3EbqN03+mAQKBgQDzGOYUfTJPfl/Sgve9\na7FPnATu+uKIokpUI9n74HH8oRrsRsx5QY3h41QmJGc60LvAFNZTpqJBVxoGCFQf\n8Y+96zoZa5hJicwoyrUSZtJ55KxPmFDs6CNb6xxoV1oQ5Z85YJ9T5eUNQdXq9ntR\n2XJTpBqiKOdpFneGcDbzzf/GuwKBgQDrGaaaREJE2e+RJHdzidrRDD1DxQtnewNs\nGd6tJTFO8GVx0gyYSN7lLl1mBniQ2p6vtNi1DUVY7ZceZwgmyM5YjNBZTYhhOssa\nu+jRE+OG4tLWx7Xp4PkcZCH0xZ1SaQELHnHjln6dYqf03hnUomaPg5rg/n2VehpY\ncpwexziUiwKBgCY6aiQatAiwNN1j3xWYk9+TB2uVZH5cFxg4MxVa7FHv+83gLFN9\nLZSyLQ96dglXvc6s+C9bavSff+Ym9SO41wPks9Q/iUk3NDXN+r+UD9E/VqGFsGQw\n9S6FQIhgBDfYBDv/p86HvodhLQSwEiCC82mXyuBpUkrCT7WCfAHHCUv1AoGACFj9\n0GZyD+3JEtc/oouXiGqt1jUt5Xu5sGHuxSkX6hyhDXyO0+1qdKrDyDacm1AX6Fc8\nhpk1CCZPglXYNUBWC1DcqP8Ww5UJ1yYq6xmQr55oLBYlQGurjLWFeyJ1JpLx5Yos\nMw+J6V6yZgBo3GLzz0619h0zKlaOjutq3bDnMmcCgYEAknbTbxro4pWvjSEpUXqP\nIhptUX21C6OTCWu/Zc/+wqMREQHWFPdxK1ps3SRcfCrEyLVcnEVAEY0bgFxnpdnB\ncBFQ+aqWwRwGU3//0tPZFWKyDCB+BcF4Qj5VPSBsnbkz5bttT6m89Kegg1qFwhLI\nYhrAgc6pdzIOYp4oPFqTpiE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8puxj@crown-compass.iam.gserviceaccount.com",
+  "client_id": "116633443661359775583",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8puxj%40crown-compass.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
