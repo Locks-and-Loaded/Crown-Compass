@@ -60,7 +60,7 @@ export default function HomePage() {
                 </form>
                 {/* Include SocialMediaIcons component */}
                 <SocialMediaIcons />
-                <div className="home-footer">
+                <div className="home-footer ">
                     <p>
                         Already have an account? <a href="/login">Sign in</a>
                     </p>
