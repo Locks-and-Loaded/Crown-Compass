@@ -6,8 +6,6 @@ const MapPage = () => {
     const [searchBox, setSearchBox] = useState(null);
     const [marker, setMarker] = useState(null);
 
-
-    const App = () => {
         const initialCoordinates = {lat: -3.745, lng: -38.523};
         const zoomLevel = 10;
         const markers = [
@@ -24,6 +22,5 @@ const MapPage = () => {
                 <div id="map" style={{height: '400px', width: '100%'}}></div>
             </div>
         );
-    };
 }
 export default MapPage;
