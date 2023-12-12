@@ -145,3 +145,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ProfilePage.css */
+.profile-banner {
+  background-color: #795548; /* Brown */
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.profile-icon {
+  color: white; /* Adjust color as needed */
+}
+
+.profile-section {
+  background-color: #8d6e63; /* Dark caramel */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.edit-profile-button {
+  background-color: #795548; /* Brown */
+  color: white;
+  border: none;
+  padding: 0.5em;
+  margin-top: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-profile-button:hover {
+  background-color: #6d4c41;
+}
+
+.history-header {
+  background-color: #d7ccc8; /* Tan */
+  color: black;
+  padding: 1em;
+}
+
+/* NavBar.css */
+.bottom-nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a1887f; /* Lighter brown */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-nav-bar button {
+  background: none;
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.bottom-nav-bar button:hover {
+  background-color: #8d6e63;
+}
+
+.bottom-nav-bar .icon {
+  color: #6d4c41; /* Icon color */
+  font-size: 24px;
+}
+
+/* Map Page css (NEEDS BACKGROUND) */
+
+
