@@ -1,9 +1,6 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { FaGoogle, FaFacebook, FaInstagram } from 'react-icons/fa';
-
-// Import icons if needed
-// import { ReactComponent as EmailIcon } from './icons/email.svg';
-// import { ReactComponent as PasswordIcon } from './icons/password.svg';
 
 const SocialMediaIcons = () => {
     const googleLink = 'https://www.google.com/';
@@ -26,16 +23,20 @@ const SocialMediaIcons = () => {
 };
 
 export default function HomePage() {
-    // ... rest remains the same
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        navigate('/profile');
+    };
 
     return (
         <div className="home-container">
             <div className="home-box">
                 <h2 className="home-header">Welcome.</h2>
                 <p>Create an account</p>
-                <form className="home-form">
+                <form className="home-form" onSubmit={handleSubmit}>
                     <div className="form-group">
-                        {/*<EmailIcon className="icon"/>*/}
                         <input
                             type="email"
                             className="form-control"
@@ -43,7 +44,6 @@ export default function HomePage() {
                         />
                     </div>
                     <div className="form-group">
-                        {/*<PasswordIcon className="icon" />*/}
                         <input
                             type="password"
                             className="form-control"
@@ -58,9 +58,8 @@ export default function HomePage() {
                         Sign Up
                     </button>
                 </form>
-                {/* Include SocialMediaIcons component */}
                 <SocialMediaIcons />
-                <div className="home-footer ">
+                <div className="home-footer">
                     <p>
                         Already have an account? <a href="/login">Sign in</a>
                     </p>

@@ -1,45 +1,41 @@
 import React from 'react';
-import { FaArrowLeft, FaHeart, FaCompass, FaHome, FaSearch, FaUser } from 'react-icons/fa';
-//import ServiceCard from './ServiceCard'; // Component for each service card
-
-const NavBar = () => {
-    return (
-        <div className="bottom-nav-bar">
-            <button><FaCompass /></button>
-            <button><FaHome /></button>
-            <button><FaSearch /></button>
-            <button><FaHeart /></button>
-            <button><FaUser /></button>
-        </div>
-    );
-};
+import { Link } from 'react-router-dom'; // Assuming you are using React Router
+import { useNavigate } from 'react-router-dom';
+import NavBar from '../components/NavBar'; // Import your NavBar component
+import { FaArrowLeft, FaUserCircle, FaHome, FaSearch, FaHeart, FaUser } from 'react-icons/fa';
+import HairCareServiceSection from '../components/HairCareServiceSection'; // Create this component for each type of hair care service
 
 const HairCareServices = () => {
-    // Sample data structure, replace with Google Places API data
-    const servicesData = {
-        locticians: [{ /* Data from Google Places API */ }],
-        barbers: [{ /* Data from Google Places API */ }],
-        braiders: [{ /* Data from Google Places API */ }],
-        stylists: [{ /* Data from Google Places API */ }],
-        colorists: [{ /* Data from Google Places API */ }]
-    };
+    const navigate = useNavigate();
 
     return (
         <div>
+            {/* Header with back arrow and image icon */}
             <div className="header">
-                <button className="back-button"><FaArrowLeft /></button>
-                <img className="profile-icon" src="path_to_image" alt="Profile" />
+                <button onClick={() => navigate(-1)}><FaArrowLeft /></button>
+                <FaUserCircle size={32} className="profile-icon" />
+
             </div>
-            <div className="services-section">
-                <h2>Services Near You</h2>
-                <div className="horizontal-scroll">
-                    {/*servicesData.locticians.map(service => <ServiceCard service={service} />)*/}
-                </div>
-                {/* Repeat for each service type */}
-            </div>
+
+            {/* Locticians/DreadMaters Section */}
+            <HairCareServiceSection title="Locticians/DreadMasters" />
+
+            {/* Barbers Section */}
+            <HairCareServiceSection title="Barbers" />
+
+            {/* Braiders Section */}
+            <HairCareServiceSection title="Braiders" />
+
+            {/* Stylist Section */}
+            <HairCareServiceSection title="Stylist" />
+
+            {/* Coloring Section */}
+            <HairCareServiceSection title="Coloring" />
+
+            {/* NavBar component at the bottom */}
             <NavBar />
         </div>
     );
-};
+}
 
 export default HairCareServices;

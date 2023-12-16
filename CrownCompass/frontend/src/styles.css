@@ -1,0 +1,11 @@
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.service-card {
+    margin-right: 16px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}

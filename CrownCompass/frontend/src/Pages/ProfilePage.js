@@ -4,9 +4,15 @@ import { FaArrowLeft, FaUserCircle, FaHome, FaSearch, FaHeart, FaUser } from 're
 import NavBar from '../components/NavBar'; // Make sure you have this component created
 
 const ProfilePage = () => {
-    let navigate = useNavigate();
+    //let navigate = useNavigate();
     const userEmail = "user@example.com"; // Replace with actual user email from context or props
     const userName = "John Doe"; // Replace with actual username from context or props
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        navigate('/vendors');
+    };
 
     return (
         <div>
@@ -14,6 +20,7 @@ const ProfilePage = () => {
             <div className="profile-banner">
                 <button onClick={() => navigate(-1)}><FaArrowLeft /></button>
                 <FaUserCircle size={32} className="profile-icon" />
+
             </div>
             {/* Profile Section */}
             <div className="profile-section">
